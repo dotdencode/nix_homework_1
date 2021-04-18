@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Coffee & Tea</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">&#9749 Coffee & Tea</a>
+        <a href="#wrapper">Наши работы</a>
+        <a href="#about__us">О нас</a>
+        <a href="#accordion__wrapper">Наши сорта</a>
+        <a href="#order">Заказать</a>
+    </header>
+    <a name="wrapper"></a>
+    <h3>Наши работы</h3>
+    <section class="wrapper">
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">
+        <input type="radio" name="point" id="slide5">
+
+        <div class="slider">
+            <div class="slides slide1">
+                <img src="../images/risunki-kofe-4-600x447.jpg" alt="Панда">
+            </div>
+            <div class="slides slide2">
+                <img src="../images/risunok-na-kofe-zvezda.jpg" alt="Звезда">
+            </div>
+            <div class="slides slide3">
+                <img src="../images/120516183252.jpg" alt="Планета">
+            </div>
+            <div class="slides slide4">
+                <img src="../images/7.jpg" alt="Снежинка">
+            </div>
+            <div class="slides slide5">
+                <img src="../images/65472120517531335ad05eaa8a4684a1.jpg" alt="Коты">
+            </div>
+        </div>	
+
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+        </div>
+    </section>
+    <a name="about__us"></a>
+    <h3>О нас</h3> 
+        <main>
+            <p class="about__us">Привет! Давай знакомиться! Мы - "Coffee & Tea"! Мы занимаемся тем, что приносим тебе удовольствие чашечкой бодрящего кофе или же
+                чашечкой успокающего чая! На нашем сайте, ты можешь заказать практически любой сорт кофе или чая, смотря
+                что ты больше предпочитаешь. Также, мы работаем практически по всему миру, что означает, что заказать 
+                у нас продукт, ты можешь из любой точки мира! Чтобы больше узнать о нас и наших услугах, ты можешь
+                ознакомиться с данным сайтом и найти ответы на все свои вопросы! Пей чай, кофе и наслаждайся жизнью
+                вместе с "Coffee & Tea"!
+            </p>
+        </main>
+        <a name="accordion__wrapper"></a>
+        <h3>Наши сорта</h3>
+        <div class="accordion__wrapper">
+            <ul class="accordion">
+                <li class="slide-1">
+                    <div>
+                        <h2>Бразильский кофе Арабика Сантос</h2>
+                        <p>
+                            Данный сорт кофе наиболее часто встречается в Бразилии. На вкус терпкий, с легкой горчинкой, обладает средневыраженным ароматом.
+                        </p>
+                    </div>
+                </li>
+                <li class="slide-2">
+                    <div>
+                        <h2>Белый чай</h2>
+                        <p>
+                            Белый чай можно отнести к самым редким и дорогим чаям, к тому же он весьма чувствительный к транспортировке и хранению продукт. Процесс производства включает только завяливание и сушку. В результате заваривания различных сортов белых чаев получается напиток с цветочным ароматом и удивительно приятным вкусом. По целебности белому чаю нет равных среди других чаев.
+                        </p>
+                    </div>
+                </li>
+                <li class="slide-3">
+                    <div>
+                        <h2>Ямайский кофе Арабика Блу Маунтин</h2>
+                        <p>
+                            Редкий сорт кофе с утонченным, изысканным вкусом и ярким ароматом. Наиболее дорогой из всех сортов кофе.
+                        </p>
+                    </div>
+                </li>
+                <li class="slide-4">
+                    <div>
+                        <h2>Зелёный чай</h2>
+                        <p>
+                            Зеленые чаи – богаты витаминами и полезными веществами, с высоким содержанием кофеина. Имеют неяркий настой от желтоватого до зеленого цвета, с ярким ароматом и насыщенным вкусом. Очень популярны в России различные виды черных чаев (в Китае черный чай называют красным). Это наиболее ферментированный чай, который проходит максимальное число операций, прежде чем поступить в продажу.
+                        </p> 
+                    </div>
+                </li>
+                <li class="slide-5">
+                    <div>
+                        <h2>Индийский кофе Арабика Майсор</h2>
+                        <p>
+                            Нежный, богатый по вкусу и аромату, слегка кисловатый, с легким винным привкусом.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a name="order"></a>
+        <h3>Заказать (Заполните Вашими контактными данными)</h3>
+        <div class="form__bg"></div>
+        <form class="form__order">
+            <input type="text" required placeholder="Имя...">
+            <input type="text" required placeholder="Фамилия...">
+            <input type="tel" required placeholder="Номер телефона(моб.)...">
+            <input type="email" required placeholder="Электронная почта(e-mail)...">
+            <textarea placeholder="Ваши пожелания(необязательно)..."></textarea>
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+        </form>
+        <footer class="footer">
+            <p class="footer__content">&copy Coopyright by Denys Milus 2021</p>
+        </footer>
+</body>
+</html>
